@@ -4,7 +4,7 @@ function calculateTax(amount){
 }
 
 function convertToUpperCase(text){
-    return text.toUppercase()
+    return text.toUpperCase()
 }
 function findMaximum(num1, num2){
     if (num1 > num2){
@@ -21,7 +21,7 @@ function isPalindrome(word){
     }
 
 function calculateDiscountedPrice(originalprice ,dicountpercentage){
-    return originalprice- (originalprice-dicountpercentage)
+    return originalprice- (originalprice*dicountpercentage/100)
 }
 
 
